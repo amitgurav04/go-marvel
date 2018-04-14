@@ -28,7 +28,7 @@ func main() {
 	}
 	fmt.Printf("Details of all Characters: %+v\n\n", chars)
 
-	id := 1011334
+	id := 1011334 //Id to fetch the details of the character
 	fmt.Printf("Fetching Details of character whose Id is %+v...\n", id)
 	char, err := client.CharacterDetails.GetById(id)
 	if err != nil {
